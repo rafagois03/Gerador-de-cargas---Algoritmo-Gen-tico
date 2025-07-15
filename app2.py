@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import random
+import deap
 from deap import base, creator, tools, algorithms
 import io
 
