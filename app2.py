@@ -173,8 +173,8 @@ if uploaded_file is not None:
     # =======================
     if st.button("🚀 Iniciar Otimização"):
         with st.spinner("⏳ Executando otimização... isso pode levar alguns minutos..."):
-            populacao = toolbox.populacao(n=50)
-            ngen = 100
+            populacao = toolbox.populacao(n=300)
+            ngen = 1000
             cxpb = 0.8
             mutpb = 0.2
 
