@@ -4,3 +4,7 @@ numpy
 deap
 openpyxl
 Xlsxwriter
+random
+io
+deap
+Counter
